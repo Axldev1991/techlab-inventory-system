@@ -1,21 +1,21 @@
 # TechLab Inventory System 🚀
 
-Professional Inventory Management System developed in Java. 
+Sistema Profesional de Gestión de Inventarios desarrollado en Java.
 
-## Features
-- **Object-Oriented Programming**: Inheritance, Polymorphism, and Composition.
-- **Robustness**: Custom exception handling (`StockInsuficienteException`) and input validation.
-- **Functionality**: Complete CRUD for inventory and multi-item order management.
-- **Clean Code**: Refactored architecture for high maintainability.
+## Características
+- **Programación Orientada a Objetos**: Implementación de Herencia, Polimorfismo y Composición.
+- **Robustez**: Manejo de excepciones personalizadas (`StockInsuficienteException`) y validación de entradas.
+- **Funcionalidad**: CRUD completo para inventario y gestión de pedidos multi-producto.
+- **Arquitectura Limpia**: Código refactorizado para alta mantenibilidad y legibilidad.
 
-## How to Run
+## Cómo Ejecutar
 ```bash
 mvn compile
 mvn exec:java
 ```
 
-## Testing
-The project includes a comprehensive integration test suite:
+## Pruebas (Testing)
+El proyecto incluye una suite de pruebas de integración completa:
 ```bash
 mvn exec:java -Dexec.mainClass="com.techlab.TestIntegral"
 ```
