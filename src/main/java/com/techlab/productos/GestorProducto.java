@@ -18,7 +18,7 @@ public class GestorProducto {
             System.out.println("Error: El stock no puede ser negativo.");
             return;
         }
-        Producto nuevo = new Producto(item.toString(), precio, stock);
+        Producto nuevo = new ProductoGenerico(item.toString(), precio, stock);
         this.lista.add(nuevo);
     }
 
@@ -28,7 +28,7 @@ public class GestorProducto {
             System.out.println("Error: El stock no puede ser negativo.");
             return;
         }
-        this.lista.add(new Producto(nombre, precio, stock));
+        this.lista.add(new ProductoGenerico(nombre, precio, stock));
     }
 
     public void agregarProductoAlimento(String nombre, double precio, int stock, String vencimiento) {
